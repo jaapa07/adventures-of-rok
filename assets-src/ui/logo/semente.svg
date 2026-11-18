@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+  <!-- Logo, camada 5 (mais à frente): a Semente-Mãe brilhando sobre a tábua de cima. -->
+  <defs>
+    <radialGradient id="g" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff0a0" stop-opacity=".95"/><stop offset=".4" stop-color="#ffd040" stop-opacity=".45"/><stop offset="1" stop-color="#ffd040" stop-opacity="0"/></radialGradient>
+    <radialGradient id="s" cx=".38" cy=".3" r=".75"><stop offset="0" stop-color="#fffbe8"/><stop offset=".4" stop-color="#f2b530"/><stop offset="1" stop-color="#8a4a10"/></radialGradient>
+  </defs>
+  <circle cx="450" cy="24" r="62" fill="url(#g)"/>
+  <path d="M450 46 Q426 42 418 24 Q440 20 450 40 Q460 20 482 24 Q474 42 450 46 Z" fill="#5cbf48" stroke="#120e18" stroke-width="3.4" stroke-linejoin="round"/>
+  <ellipse cx="450" cy="18" rx="17" ry="21" fill="url(#s)" stroke="#120e18" stroke-width="4"/>
+  <path d="M442 8 Q447 2 454 4" stroke="#ffffff" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+  <g stroke="#fff6c8" stroke-width="3" stroke-linecap="round"><path d="M400 6 L388 0 M500 6 L512 0 M404 34 L390 40 M496 34 L510 40"/></g>
+</svg>

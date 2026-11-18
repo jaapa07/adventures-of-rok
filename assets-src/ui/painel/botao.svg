@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="56" viewBox="0 0 120 56">
+  <!-- Botão de tábua (9-slice, fatia 24): estado normal. -->
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a8723e"/><stop offset=".55" stop-color="#7f5129"/><stop offset="1" stop-color="#5a3a22"/></linearGradient></defs>
+  <path d="M6 14 Q5 4 16 4 L104 5 Q116 4 115 15 L116 40 Q116 50 104 50 L16 51 Q5 51 5 40 Z" fill="#120e18"/>
+  <path d="M7 13 Q7 6 16 6 L104 7 Q113 6 113 15 L113 38 Q113 46 104 46 L16 47 Q7 47 7 38 Z" fill="url(#g)"/>
+  <path d="M14 15 Q50 12 80 15 T108 14 M14 26 Q44 29 74 25 T108 27 M14 37 Q54 34 84 38 T108 36" stroke="#4a2e18" stroke-width="1.4" fill="none" opacity=".7"/>
+  <path d="M10 13 Q11 9 16 9 L104 10" stroke="#e0b07a" stroke-width="2" fill="none" opacity=".8"/>
+  <circle cx="16" cy="28" r="2.6" fill="#2a1a0e"/><circle cx="104" cy="28" r="2.6" fill="#2a1a0e"/>
+  <circle cx="15.3" cy="27.3" r="1" fill="#d8c49a"/><circle cx="103.3" cy="27.3" r="1" fill="#d8c49a"/>
+</svg>

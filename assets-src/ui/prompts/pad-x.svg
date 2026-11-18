@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- Botão de gamepad "x": semente lisa com a letra entalhada. -->
+  <defs><radialGradient id="b" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ffffff" stop-opacity=".9"/><stop offset=".25" stop-color="#1e5ba8"/><stop offset="1" stop-color="#120e18"/></radialGradient></defs>
+  <circle cx="24" cy="25" r="21" fill="#120e18"/>
+  <circle cx="24" cy="23" r="19" fill="url(#b)"/>
+  <path d="M17 14 L31 33 M31 14 L17 33" fill="none" stroke="#120e18" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M17 14 L31 33 M31 14 L17 33" fill="none" stroke="#fff4dc" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

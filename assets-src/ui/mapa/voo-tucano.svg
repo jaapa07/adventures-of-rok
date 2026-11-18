@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="72" viewBox="0 0 96 72">
+  <!-- Voo do Tucano: tucano de asas abertas sobre um poleiro. -->
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe14a"/><stop offset=".5" stop-color="#ff951f"/><stop offset="1" stop-color="#e0401a"/></linearGradient></defs>
+  <path d="M10 68 L86 68" stroke="#5a3a22" stroke-width="6" stroke-linecap="round"/>
+  <path d="M48 66 L48 50" stroke="#5a3a22" stroke-width="5"/>
+  <path d="M8 22 Q24 6 40 26 Q56 4 88 18 Q68 26 58 40 Q44 50 34 40 Q22 30 8 22 Z" fill="#1a1622" stroke="#120e18" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M14 22 Q26 14 36 26 M84 19 Q66 18 58 32" stroke="#5a5468" stroke-width="2" fill="none"/>
+  <ellipse cx="44" cy="40" rx="10" ry="8" fill="#fff4dc" stroke="#120e18" stroke-width="2"/>
+  <circle cx="42" cy="34" r="4" fill="#5ab8e8" stroke="#120e18" stroke-width="1.6"/><circle cx="42" cy="34" r="1.8" fill="#120e18"/>
+  <path d="M46 32 Q70 30 76 42 Q64 46 48 40 Z" fill="url(#b)" stroke="#120e18" stroke-width="2.4" stroke-linejoin="round"/>
+</svg>

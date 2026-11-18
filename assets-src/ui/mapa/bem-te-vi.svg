@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="88" viewBox="0 0 80 88">
+  <!-- Save do Bem-te-vi: passarinho no mourão segurando um bilhete enrolado. -->
+  <ellipse cx="40" cy="82" rx="22" ry="5" fill="#120e18" opacity=".45"/>
+  <rect x="30" y="50" width="20" height="34" rx="3" fill="#7a4e2a" stroke="#120e18" stroke-width="3"/>
+  <path d="M34 56 L34 80 M44 54 L44 80" stroke="#4a2e18" stroke-width="1.6"/>
+  <path d="M18 40 Q20 18 42 16 Q62 18 62 36 Q60 52 40 54 Q22 52 18 40 Z" fill="#7a5a32" stroke="#120e18" stroke-width="3"/>
+  <path d="M22 40 Q30 50 44 50 Q58 48 60 36 Q50 30 36 32 Q26 34 22 40 Z" fill="#ffd23a" stroke="#120e18" stroke-width="2"/>
+  <path d="M26 22 Q40 12 58 24 L56 28 Q40 20 28 26 Z" fill="#120e18"/>
+  <path d="M28 27 Q40 22 56 29" stroke="#fff4dc" stroke-width="3" fill="none"/>
+  <circle cx="48" cy="30" r="3" fill="#120e18"/><circle cx="47" cy="29" r="1" fill="#fff"/>
+  <path d="M60 30 L72 32 L60 35 Z" fill="#2a1a0e" stroke="#120e18" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M10 44 L24 40 L24 48 L10 52 Z" fill="#fff4dc" stroke="#120e18" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M12 46 L22 43" stroke="#a8382b" stroke-width="1.6"/>
+</svg>

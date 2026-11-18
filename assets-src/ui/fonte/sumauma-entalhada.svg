@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sumaúma Entalhada — fonte autoral de Adventures of ROK.
+  Cada glifo é a LINHA CENTRAL do entalhe (traço do formão). A espessura, o volume de madeira,
+  o contorno, a sombra e o brilho são aplicados em camadas pelo componente de texto (src/ui/components/carved.ts).
+  Métrica: topo das maiúsculas y=30, linha de base y=120, acentos entre y=-16 e y=6.
+  data-w = largura do desenho (de x=0 até x=data-w). O avanço é data-w + 30.
+  Os traços têm pequenas irregularidades de propósito: é letra cortada a mão em tábua.
+  Os glifos acentuados (Á À Ã Â É Ê Í Ó Ô Õ Ú Ç) são montados pelo tools/build-ui.ts a partir da base + acento.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" data-font="Sumauma Entalhada" data-cap="30" data-base="120">
+  <path data-ch="A" data-w="66" d="M1 120 L29 32 Q33 26 37 32 L65 120 M15 88 L52 87"/>
+  <path data-ch="B" data-w="60" d="M4 120 L5 30 L32 30 Q56 30 56 51 Q56 72 32 73 L5 73 M32 73 Q60 74 60 97 Q60 120 33 120 L4 120"/>
+  <path data-ch="C" data-w="60" d="M58 44 Q50 29 33 30 Q3 32 3 76 Q3 119 33 120 Q51 120 59 104"/>
+  <path data-ch="D" data-w="62" d="M5 31 L4 120 L28 120 Q62 118 62 75 Q62 31 28 30 L5 31"/>
+  <path data-ch="E" data-w="56" d="M55 30 L5 31 L4 120 L56 119 M5 74 L42 75"/>
+  <path data-ch="F" data-w="54" d="M54 30 L5 31 L4 120 M5 75 L41 74"/>
+  <path data-ch="G" data-w="62" d="M58 44 Q50 29 33 30 Q3 32 3 76 Q3 119 33 120 Q60 120 61 93 L61 80 L39 80"/>
+  <path data-ch="H" data-w="62" d="M4 30 L5 120 M58 30 L58 120 M5 75 L58 74"/>
+  <path data-ch="I" data-w="30" d="M1 31 L29 30 M15 30 L15 120 M1 120 L29 119"/>
+  <path data-ch="J" data-w="50" d="M49 30 L49 95 Q49 120 26 120 Q7 120 2 101"/>
+  <path data-ch="K" data-w="60" d="M4 30 L5 120 M57 31 L7 83 M23 66 L60 120"/>
+  <path data-ch="L" data-w="52" d="M4 30 L5 119 L52 120"/>
+  <path data-ch="M" data-w="74" d="M2 120 L7 31 L37 88 L67 30 L72 120"/>
+  <path data-ch="N" data-w="62" d="M4 120 L5 31 L58 119 L58 30"/>
+  <path data-ch="O" data-w="66" d="M33 30 Q3 30 3 75 Q3 120 33 120 Q64 120 64 75 Q64 30 33 30"/>
+  <path data-ch="P" data-w="58" d="M4 120 L5 30 L33 30 Q58 30 58 54 Q58 78 33 78 L5 78"/>
+  <path data-ch="Q" data-w="68" d="M33 30 Q3 30 3 75 Q3 120 33 120 Q64 120 64 75 Q64 30 33 30 M40 96 L67 125"/>
+  <path data-ch="R" data-w="60" d="M4 120 L5 30 L33 30 Q58 30 58 53 Q58 76 31 76 L5 76 M29 76 L60 120"/>
+  <path data-ch="S" data-w="58" d="M55 43 Q48 30 31 30 Q6 31 6 52 Q6 70 31 74 Q58 78 58 98 Q58 120 30 120 Q10 120 2 104"/>
+  <path data-ch="T" data-w="64" d="M1 31 L63 30 M32 30 L33 120"/>
+  <path data-ch="U" data-w="62" d="M4 30 L4 92 Q4 120 31 120 Q58 120 58 92 L58 30"/>
+  <path data-ch="V" data-w="62" d="M1 30 L31 120 L61 31"/>
+  <path data-ch="W" data-w="80" d="M1 30 L18 120 L40 58 L62 120 L79 31"/>
+  <path data-ch="X" data-w="60" d="M3 30 L59 120 M58 31 L2 120"/>
+  <path data-ch="Y" data-w="60" d="M1 30 L30 75 L59 31 M30 75 L31 120"/>
+  <path data-ch="Z" data-w="60" d="M4 31 L57 30 L4 120 L59 119"/>
+
+  <path data-ch="0" data-w="58" d="M29 30 Q2 30 2 75 Q2 120 29 120 Q56 120 56 75 Q56 30 29 30 M18 98 L42 52"/>
+  <path data-ch="1" data-w="46" d="M7 47 L28 30 L28 120 M8 120 L46 119"/>
+  <path data-ch="2" data-w="56" d="M4 50 Q6 30 29 30 Q54 30 54 53 Q54 74 4 119 L56 119"/>
+  <path data-ch="3" data-w="56" d="M4 41 Q13 30 29 30 Q52 30 52 52 Q52 72 27 73 Q56 74 56 97 Q56 120 29 120 Q10 120 2 108"/>
+  <path data-ch="4" data-w="58" d="M43 120 L43 31 L3 92 L58 91"/>
+  <path data-ch="5" data-w="56" d="M52 31 L10 30 L6 72 Q16 66 29 66 Q56 66 56 93 Q56 120 29 120 Q10 120 2 107"/>
+  <path data-ch="6" data-w="56" d="M50 37 Q43 30 31 30 Q2 30 2 80 Q2 120 29 120 Q56 120 56 94 Q56 68 29 68 Q10 68 3 84"/>
+  <path data-ch="7" data-w="56" d="M2 31 L56 30 L21 120"/>
+  <path data-ch="8" data-w="58" d="M29 74 Q6 72 6 52 Q6 30 29 30 Q52 30 52 52 Q52 72 29 74 Q4 76 4 98 Q4 120 29 120 Q56 120 56 98 Q56 76 29 74"/>
+  <path data-ch="9" data-w="56" d="M7 113 Q15 120 27 120 Q56 120 56 70 Q56 30 29 30 Q2 30 2 56 Q2 82 28 82 Q47 82 55 66"/>
+
+  <path data-ch="." data-w="10" d="M5 117 L5 119"/>
+  <path data-ch="," data-w="14" d="M10 115 L4 133"/>
+  <path data-ch="!" data-w="10" d="M5 30 L6 92 M5 117 L5 119"/>
+  <path data-ch="?" data-w="50" d="M3 45 Q9 30 27 30 Q50 30 50 52 Q50 70 27 78 L27 92 M27 117 L27 119"/>
+  <path data-ch=":" data-w="10" d="M5 62 L5 64 M5 116 L5 118"/>
+  <path data-ch=";" data-w="14" d="M8 62 L8 64 M10 114 L4 132"/>
+  <path data-ch="-" data-w="34" d="M2 79 L34 78"/>
+  <path data-ch="'" data-w="10" d="M6 28 L4 50"/>
+  <path data-ch="&quot;" data-w="26" d="M6 28 L4 50 M22 28 L20 50"/>
+  <path data-ch="(" data-w="24" d="M24 22 Q1 48 1 76 Q1 104 24 130"/>
+  <path data-ch=")" data-w="24" d="M0 22 Q23 48 23 76 Q23 104 0 130"/>
+  <path data-ch="/" data-w="40" d="M0 126 L40 24"/>
+  <path data-ch="+" data-w="48" d="M2 76 L48 75 M25 52 L25 98"/>
+  <path data-ch="×" data-w="44" d="M4 56 L40 94 M40 56 L4 94"/>
+  <path data-ch="%" data-w="64" d="M15 30 Q3 30 3 44 Q3 58 15 58 Q27 58 27 44 Q27 30 15 30 M49 92 Q37 92 37 106 Q37 120 49 120 Q61 120 61 106 Q61 92 49 92 M6 120 L58 30"/>
+  <path data-ch="#" data-w="58" d="M18 34 L12 118 M44 34 L38 118 M2 62 L56 62 M2 92 L56 92"/>
+  <path data-ch="·" data-w="10" d="M5 74 L5 76"/>
+  <path data-ch="&lt;" data-w="44" d="M42 50 L4 76 L42 102"/>
+  <path data-ch="&gt;" data-w="44" d="M2 50 L40 76 L2 102"/>
+
+  <!-- acentos (desenhados em torno de x=0, centralizados pelo montador) -->
+  <path data-accent="agudo" d="M-7 6 L9 -14"/>
+  <path data-accent="grave" d="M-9 -14 L7 6"/>
+  <path data-accent="til" d="M-18 2 Q-10 -12 0 -4 Q10 4 18 -10"/>
+  <path data-accent="circunflexo" d="M-15 5 L0 -13 L15 5"/>
+  <path data-accent="cedilha" d="M0 120 L1 132 Q16 132 14 142 Q12 150 -2 148"/>
+</svg>

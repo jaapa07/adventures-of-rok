@@ -1,0 +1,14 @@
+:root {
+  --ouro: #F2B530;
+  --folha: #2E8B3E;
+  --musgo: #1E4D2B;
+  --ambar: #D9822B;
+  --recife: #1E5BA8;
+  --cristal: #9B4DDB;
+  --ferrugem: #A8382B;
+  --casca: #5A3A22;
+  --noite: #120E18;
+  --creme: #FFF4DC;
+  --fonte-ui: ui-rounded, "Nunito", "Trebuchet MS", system-ui, sans-serif;
+  --fonte-titulo: "Sumauma Entalhada", ui-rounded, "Trebuchet MS", system-ui, sans-serif;
+}

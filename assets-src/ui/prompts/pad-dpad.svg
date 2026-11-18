@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- Direcional: cruz de madeira escura. -->
+  <path d="M17 3 L31 3 L31 17 L45 17 L45 31 L31 31 L31 45 L17 45 L17 31 L3 31 L3 17 L17 17 Z" fill="#120e18"/>
+  <path d="M19 5 L29 5 L29 19 L43 19 L43 29 L29 29 L29 43 L19 43 L19 29 L5 29 L5 19 L19 19 Z" fill="#4a4038"/>
+  <path d="M24 8 L21 12 L27 12 Z M24 40 L21 36 L27 36 Z M8 24 L12 21 L12 27 Z M40 24 L36 21 L36 27 Z" fill="#fff4dc"/>
+</svg>

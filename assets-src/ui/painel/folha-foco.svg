@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="40" viewBox="0 0 48 40">
+  <!-- Folhinha que balança presa ao botão em foco (pivô no talo, à esquerda). -->
+  <defs><linearGradient id="f" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fe06a"/><stop offset="1" stop-color="#2e8b3e"/></linearGradient></defs>
+  <path d="M2 20 Q8 18 12 20" stroke="#4a2e18" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M11 20 Q22 2 46 6 Q40 30 11 20 Z" fill="url(#f)" stroke="#120e18" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M12 20 Q28 12 44 7 M22 15 L24 9 M30 12 L33 7 M22 15 L28 20 M30 12 L37 15" stroke="#1e4d2b" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  <path d="M17 13 Q24 7 34 6" stroke="#d8ffb0" stroke-width="1.6" fill="none" opacity=".8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="56" viewBox="0 0 120 56">
+  <!-- Botão desabilitado: tábua acinzentada e rachada. -->
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#77695a"/><stop offset="1" stop-color="#4a4038"/></linearGradient></defs>
+  <path d="M6 14 Q5 4 16 4 L104 5 Q116 4 115 15 L116 40 Q116 50 104 50 L16 51 Q5 51 5 40 Z" fill="#120e18"/>
+  <path d="M7 13 Q7 6 16 6 L104 7 Q113 6 113 15 L113 38 Q113 46 104 46 L16 47 Q7 47 7 38 Z" fill="url(#g)"/>
+  <path d="M70 7 L66 20 L72 28 L68 46" stroke="#2a2420" stroke-width="2" fill="none"/>
+  <path d="M14 26 Q44 29 60 25" stroke="#3a322c" stroke-width="1.4" fill="none"/>
+</svg>

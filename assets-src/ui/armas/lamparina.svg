@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Lamparina Acesa -->
+  <defs><radialGradient id="f" cx=".5" cy=".7" r=".6"><stop offset="0" stop-color="#fffbe0"/><stop offset=".5" stop-color="#ffc040"/><stop offset="1" stop-color="#e0501a"/></radialGradient>
+  <radialGradient id="h" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffe080" stop-opacity=".7"/><stop offset="1" stop-color="#ffe080" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="32" cy="20" r="18" fill="url(#h)"/>
+  <path d="M32 6 Q42 18 36 28 Q32 32 28 28 Q22 18 32 6 Z" fill="url(#f)" stroke="#120e18" stroke-width="2"/>
+  <path d="M22 30 L42 30 L46 56 Q32 62 18 56 Z" fill="#7a828e" stroke="#120e18" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M30 30 L34 30 L34 24 L30 24 Z" fill="#5a3a22"/>
+  <path d="M24 36 L22 52" stroke="#d8dee6" stroke-width="2"/>
+  <path d="M46 36 Q56 38 54 50 L46 50" stroke="#120e18" stroke-width="3" fill="none"/>
+</svg>

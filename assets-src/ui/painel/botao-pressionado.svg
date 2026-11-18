@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="56" viewBox="0 0 120 56">
+  <!-- Botão pressionado: afundado, luz por baixo. -->
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a4f16"/><stop offset=".5" stop-color="#c9781e"/><stop offset="1" stop-color="#e7a040"/></linearGradient></defs>
+  <path d="M6 16 Q5 7 16 7 L104 8 Q116 7 115 17 L116 42 Q116 52 104 52 L16 53 Q5 53 5 42 Z" fill="#120e18"/>
+  <path d="M7 16 Q7 10 16 10 L104 11 Q113 10 113 18 L113 41 Q113 49 104 49 L16 50 Q7 50 7 41 Z" fill="url(#g)"/>
+  <path d="M10 46 Q60 50 110 46" stroke="#ffd57a" stroke-width="2" fill="none" opacity=".8"/>
+  <path d="M10 14 L110 14" stroke="#4a2e18" stroke-width="3" opacity=".6"/>
+  <circle cx="16" cy="30" r="2.6" fill="#5a3a22"/><circle cx="104" cy="30" r="2.6" fill="#5a3a22"/>
+</svg>

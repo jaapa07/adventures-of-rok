@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="110" viewBox="0 0 120 110">
+  <!-- Tucano-mensageiro: busto do Tucano para balões de aviso e desafios. -->
+  <defs>
+    <linearGradient id="bico" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe14a"/><stop offset=".5" stop-color="#ff951f"/><stop offset="1" stop-color="#e0401a"/></linearGradient>
+    <radialGradient id="corpo" cx=".4" cy=".3" r=".9"><stop offset="0" stop-color="#3a3448"/><stop offset="1" stop-color="#0c0a12"/></radialGradient>
+  </defs>
+  <path d="M14 108 Q6 60 30 34 Q52 14 70 34 Q86 56 76 108 Z" fill="#120e18"/>
+  <path d="M19 106 Q12 62 33 38 Q51 20 66 37 Q80 58 72 106 Z" fill="url(#corpo)"/>
+  <path d="M30 76 Q40 62 58 66 Q62 86 46 98 Q32 94 30 76 Z" fill="#fff4dc" stroke="#120e18" stroke-width="2"/>
+  <path d="M34 92 Q46 96 56 88" stroke="#e0401a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="46" cy="44" r="11" fill="#5ab8e8" stroke="#120e18" stroke-width="2.4"/>
+  <circle cx="47" cy="44" r="5.5" fill="#120e18"/><circle cx="45" cy="42" r="2" fill="#fff"/>
+  <path d="M38 38 Q46 31 55 37" stroke="#120e18" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M56 40 Q100 30 118 54 Q106 70 58 58 Z" fill="url(#bico)" stroke="#120e18" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M58 52 Q90 58 114 56" stroke="#120e18" stroke-width="2.4" fill="none"/>
+  <path d="M106 44 Q114 50 116 54" stroke="#120e18" stroke-width="2.4" fill="none"/>
+  <path d="M62 44 Q84 37 100 42" stroke="#fff6c8" stroke-width="3" fill="none" stroke-linecap="round" opacity=".8"/>
+  <path d="M24 70 Q22 54 30 44" stroke="#5a5468" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Panela de Barro -->
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e08a4a"/><stop offset="1" stop-color="#8a3a1a"/></linearGradient></defs>
+  <path d="M6 24 L58 24 Q58 56 32 58 Q6 56 6 24 Z" fill="url(#g)" stroke="#120e18" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="4" y="18" width="56" height="9" rx="4" fill="#c46a32" stroke="#120e18" stroke-width="3"/>
+  <path d="M4 30 Q-2 30 0 38 M60 30 Q66 30 64 38" stroke="#120e18" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M14 34 Q20 40 30 40 M36 44 Q44 42 50 34" stroke="#f0b080" stroke-width="2" fill="none"/>
+  <path d="M12 21 L40 21" stroke="#ffd0a0" stroke-width="2" stroke-linecap="round"/>
+</svg>

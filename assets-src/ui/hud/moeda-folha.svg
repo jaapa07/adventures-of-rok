@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Moeda-Folha: disco verde-dourado com folha de sumaúma em relevo. -->
+  <defs>
+    <radialGradient id="m" cx=".38" cy=".32" r=".8"><stop offset="0" stop-color="#e8ffb0"/><stop offset=".45" stop-color="#5cbf48"/><stop offset="1" stop-color="#1e4d2b"/></radialGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="#120e18"/>
+  <circle cx="32" cy="32" r="25" fill="#f2b530"/>
+  <circle cx="32" cy="32" r="21" fill="url(#m)"/>
+  <path d="M32 50 Q14 40 18 18 Q38 16 44 32 Q46 44 32 50 Z" fill="#2e8b3e" stroke="#120e18" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M32 50 Q28 34 20 20 M27 38 L20 34 M29 30 L23 25 M30 42 L38 38 M27 32 L35 27" stroke="#d8ffb0" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M14 22 Q20 12 30 10" stroke="#fffbe0" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+</svg>

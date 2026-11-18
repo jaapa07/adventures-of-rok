@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <!-- Painel 9-slice (fatia 40): moldura de tábuas com cipó amarrado nos cantos; miolo musgo. -->
+  <defs>
+    <linearGradient id="tb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a6a3c"/><stop offset=".45" stop-color="#7a4e2a"/><stop offset="1" stop-color="#4a2e18"/>
+    </linearGradient>
+    <linearGradient id="tl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9a6a3c"/><stop offset=".5" stop-color="#7a4e2a"/><stop offset="1" stop-color="#4a2e18"/>
+    </linearGradient>
+    <radialGradient id="miolo" cx=".5" cy=".4" r=".75">
+      <stop offset="0" stop-color="#2a5e36"/><stop offset=".7" stop-color="#1e4d2b"/><stop offset="1" stop-color="#143820"/>
+    </radialGradient>
+    <linearGradient id="cipo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7cbf4a"/><stop offset="1" stop-color="#2e6b2a"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="100" height="100" rx="10" fill="url(#miolo)"/>
+  <path d="M30 40 Q60 36 90 42 M28 62 Q60 58 92 64 M30 84 Q60 80 90 86" stroke="#1a4426" stroke-width="3" fill="none" opacity=".55"/>
+  <!-- tábuas -->
+  <path d="M4 14 Q4 4 14 4 L106 4 Q116 4 116 14 L116 30 L4 30 Z" fill="url(#tb)" stroke="#120e18" stroke-width="3"/>
+  <path d="M4 90 L116 90 L116 106 Q116 116 106 116 L14 116 Q4 116 4 106 Z" fill="url(#tb)" stroke="#120e18" stroke-width="3"/>
+  <path d="M4 26 L28 26 L28 94 L4 94 Z" fill="url(#tl)" stroke="#120e18" stroke-width="3"/>
+  <path d="M92 26 L116 26 L116 94 L92 94 Z" fill="url(#tl)" stroke="#120e18" stroke-width="3"/>
+  <!-- veios -->
+  <path d="M12 12 Q40 9 60 13 T108 11 M14 20 Q50 23 80 19 T110 22 M12 99 Q44 96 70 100 T108 98 M14 108 Q50 111 82 107 T110 109" stroke="#3e2512" stroke-width="1.6" fill="none" opacity=".7"/>
+  <path d="M10 34 Q13 60 9 86 M19 32 Q16 62 21 90 M100 34 Q97 60 101 86 M109 32 Q112 62 107 90" stroke="#3e2512" stroke-width="1.6" fill="none" opacity=".7"/>
+  <!-- chanfro de luz -->
+  <path d="M8 13 Q8 8 14 8 L106 8" stroke="#d9a46a" stroke-width="2" fill="none" opacity=".8"/>
+  <path d="M8 30 L8 90" stroke="#c49058" stroke-width="2" opacity=".6"/>
+  <path d="M96 30 L96 90" stroke="#c49058" stroke-width="2" opacity=".5"/>
+  <!-- borda interna escura -->
+  <rect x="27" y="29" width="66" height="62" rx="4" fill="none" stroke="#120e18" stroke-width="3" opacity=".7"/>
+  <!-- cipós amarrados nos cantos -->
+  <g fill="none" stroke="url(#cipo)" stroke-width="5" stroke-linecap="round">
+    <path d="M2 30 Q16 22 30 32 Q22 16 32 2"/>
+    <path d="M118 30 Q104 22 90 32 Q98 16 88 2"/>
+    <path d="M2 90 Q16 98 30 88 Q22 104 32 118"/>
+    <path d="M118 90 Q104 98 90 88 Q98 104 88 118"/>
+  </g>
+  <g fill="none" stroke="#163a1e" stroke-width="1.5" opacity=".7">
+    <path d="M6 28 Q16 22 26 30 M114 28 Q104 22 94 30 M6 92 Q16 98 26 90 M114 92 Q104 98 94 90"/>
+  </g>
+  <g stroke="#163a1e" stroke-width="1.2">
+    <path d="M30 30 Q40 22 44 30 Q38 36 30 30 Z" fill="#4fa83e"/>
+    <path d="M90 30 Q80 22 76 30 Q82 36 90 30 Z" fill="#4fa83e"/>
+    <path d="M30 90 Q40 98 44 90 Q38 84 30 90 Z" fill="#3e8f34"/>
+    <path d="M90 90 Q80 98 76 90 Q82 84 90 90 Z" fill="#3e8f34"/>
+    <path d="M16 18 Q8 10 14 4 Q22 10 16 18 Z" fill="#5cbf48"/>
+    <path d="M104 18 Q112 10 106 4 Q98 10 104 18 Z" fill="#5cbf48"/>
+  </g>
+  <g fill="#2a1a0e"><circle cx="16" cy="60" r="2.4"/><circle cx="104" cy="60" r="2.4"/><circle cx="60" cy="17" r="2.4"/><circle cx="60" cy="103" r="2.4"/></g>
+  <g fill="#c8b48a"><circle cx="15.3" cy="59.3" r="0.9"/><circle cx="103.3" cy="59.3" r="0.9"/><circle cx="59.3" cy="16.3" r="0.9"/><circle cx="59.3" cy="102.3" r="0.9"/></g>
+</svg>

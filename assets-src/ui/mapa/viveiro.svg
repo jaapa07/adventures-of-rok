@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="80" viewBox="0 0 96 80">
+  <!-- Viveiro da Semente-Mãe: canteiro de troncos com mudas e a semente brilhando. -->
+  <defs><radialGradient id="s" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#fffbe0"/><stop offset=".5" stop-color="#f2b530"/><stop offset="1" stop-color="#a85a10"/></radialGradient>
+  <radialGradient id="g" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffe9a0" stop-opacity=".8"/><stop offset="1" stop-color="#ffe9a0" stop-opacity="0"/></radialGradient></defs>
+  <ellipse cx="48" cy="72" rx="44" ry="7" fill="#120e18" opacity=".45"/>
+  <circle cx="48" cy="30" r="24" fill="url(#g)"/>
+  <rect x="6" y="48" width="84" height="22" rx="6" fill="#7a4e2a" stroke="#120e18" stroke-width="3"/>
+  <ellipse cx="48" cy="50" rx="40" ry="6" fill="#4a2e18" stroke="#120e18" stroke-width="2"/>
+  <path d="M20 50 Q18 36 24 30 M24 30 Q30 28 30 34 Q24 36 24 30 Z M24 36 Q16 32 14 38 Q20 40 24 36" stroke="#2e8b3e" stroke-width="2.4" fill="#5cbf48"/>
+  <path d="M74 50 Q76 38 70 32 M70 32 Q64 30 64 36 Q70 38 70 32 Z M71 40 Q78 36 80 42 Q74 44 71 40" stroke="#2e8b3e" stroke-width="2.4" fill="#5cbf48"/>
+  <path d="M48 50 L48 36" stroke="#5a3a22" stroke-width="4"/>
+  <ellipse cx="48" cy="28" rx="9" ry="11" fill="url(#s)" stroke="#120e18" stroke-width="2.4"/>
+  <path d="M44 22 Q47 19 50 20" stroke="#fffbe8" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

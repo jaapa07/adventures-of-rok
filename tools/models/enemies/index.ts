@@ -1,0 +1,16 @@
+import type { ModelDef } from '../../render/types';
+import { javalim } from './javalim';
+import { javalimEscudo } from './javalim-escudo';
+import { javalao } from './javalao';
+import { serrote } from './serrote';
+import { marimbondo } from './marimbondo';
+import { cascavel } from './cascavel';
+import { lagarto } from './lagarto';
+import { morcego } from './morcego';
+import { piranha } from './piranha';
+import { caranguejo } from './caranguejo';
+import { aguaViva } from './agua-viva';
+import { baiacu } from './baiacu';
+import { lagartaTrator } from './lagarta-trator';
+import { bauBoca } from './bau-boca';
+export const models: ModelDef[] = [javalim, javalimEscudo, javalao, serrote, marimbondo, cascavel, lagarto, morcego, piranha, caranguejo, aguaViva, baiacu, lagartaTrator, bauBoca];

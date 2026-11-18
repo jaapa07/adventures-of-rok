@@ -1,0 +1,58 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; overflow: hidden; background: var(--noite); color: var(--creme); font-family: var(--fonte-ui); user-select: none; -webkit-user-select: none; }
+#frame {
+  position: fixed; inset: 0;
+  /* letterbox decorado: trama de folhas escuras */
+  background:
+    radial-gradient(ellipse at 50% 50%, rgba(46, 139, 62, 0.18), transparent 70%),
+    repeating-linear-gradient(135deg, rgba(30, 77, 43, 0.35) 0 14px, rgba(18, 14, 24, 0.9) 14px 30px),
+    var(--noite);
+}
+#viewport {
+  position: absolute; left: 50%; top: 50%; width: 1280px; height: 720px; overflow: hidden;
+  transform-origin: 50% 50%; background: #000; box-shadow: 0 0 0 3px rgba(242, 181, 48, 0.25), 0 20px 80px rgba(0, 0, 0, 0.7);
+}
+.scene3d { position: absolute; inset: 0; perspective: 1200px; perspective-origin: 50% 50%; overflow: hidden; }
+.sky { position: absolute; inset: 0; }
+.rig { position: absolute; inset: 0; transform-style: preserve-3d; transform-origin: 50% 50%; }
+.parallax { position: absolute; left: 0; top: 0; background-repeat: repeat-x; transform-origin: 0 0; will-change: transform; pointer-events: none; }
+.world { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
+.chunks-back, .entities, .chunks-front { position: absolute; left: 0; top: 0; }
+.chunks-front { z-index: 200; }
+.entities { z-index: 100; }
+.chunk { position: absolute; left: 0; top: 0; width: 512px; height: 512px; pointer-events: none; }
+.sprite, .sprite-shadow { position: absolute; left: 0; top: 0; background-repeat: no-repeat; pointer-events: none; will-change: transform; }
+.sprite-shadow { background-size: 100% 100%; }
+.water { position: absolute; left: 0; top: 0; background: var(--water, rgba(30, 91, 168, 0.45)); mix-blend-mode: multiply; pointer-events: none; }
+.water-surface {
+  position: absolute; left: 0; top: 0; height: 0; pointer-events: none;
+}
+.water-surface::before {
+  content: ''; position: absolute; left: 0; right: 0; top: -12px; height: 48px;
+  background-image: var(--surface, linear-gradient(rgba(255,255,255,0.5), transparent)); background-size: 512px 48px; background-repeat: repeat-x;
+  animation: water-wave 1.6s steps(4) infinite;
+}
+@keyframes water-wave { to { background-position: -512px 0; } }
+.overlay { position: absolute; inset: 0; pointer-events: none; z-index: 5; }
+.darkness { position: absolute; left: 0; top: 0; pointer-events: none; }
+.rain { position: absolute; inset: 0; opacity: 0; transition: opacity 1.5s; }
+.rain.on { opacity: 1; }
+.sunset-tint { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(255, 120, 60, 0.18), rgba(120, 40, 90, 0.22)); mix-blend-mode: soft-light; opacity: 0; transition: opacity 3s; }
+.sunset-tint.on { opacity: 1; }
+.hud { position: absolute; inset: 0; pointer-events: none; z-index: 10; }
+.screens { position: absolute; inset: 0; z-index: 20; }
+.play-screen { position: absolute; inset: 0; pointer-events: none; }
+.onomato {
+  position: absolute; left: 0; top: 0; font-family: var(--fonte-titulo); font-weight: 900; font-size: 44px; letter-spacing: 1px;
+  color: var(--ouro); -webkit-text-stroke: 3px var(--noite); paint-order: stroke fill; text-shadow: 0 4px 0 var(--casca), 0 6px 12px rgba(0,0,0,.5); white-space: nowrap; pointer-events: none;
+}
+.onomato.small { font-size: 26px; color: var(--creme); }
+.curtain {
+  position: absolute; inset: 0; z-index: 100; pointer-events: none;
+  background: repeating-linear-gradient(120deg, var(--musgo) 0 60px, var(--folha) 60px 120px);
+  clip-path: polygon(0 0, 0 0, -20% 100%, -20% 100%); transition: clip-path 0.4s ease-in-out;
+}
+.curtain.closed { clip-path: polygon(0 0, 120% 0, 100% 100%, -20% 100%); }
+.q-media .parallax { image-rendering: auto; }
+.debug-solid { position: absolute; background: rgba(255, 0, 80, 0.25); outline: 1px solid rgba(255, 0, 80, 0.6); pointer-events: none; }
+.debug-water { position: absolute; background: rgba(0, 120, 255, 0.25); pointer-events: none; }

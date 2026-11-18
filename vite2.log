@@ -1,0 +1,44 @@
+
+  VITE v5.4.11  ready in 203 ms
+
+  ➜  Local:   http://localhost:5198/
+  ➜  Network: use --host to expose
+2:30:25 PM [vite] Pre-transform error: Failed to resolve import "./agua-viva-disco" from "src/game/gags/index.ts". Does the file exist?
+2:30:25 PM [vite] Internal server error: Failed to resolve import "./agua-viva-disco" from "src/game/gags/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/user/selva-sumauma/src/game/gags/index.ts:17:7
+  11 |  import "./caranguejo-baile";
+  12 |  import "./naufragio";
+  13 |  import "./agua-viva-disco";
+     |          ^
+  14 |  import "./cafe";
+  15 |  import "./relogio-ponto";
+      at TransformPluginContext._formatError (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:49255:41)
+      at TransformPluginContext.error (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:49250:16)
+      at normalizeUrl (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:64041:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:64173:39
+      at async Promise.all (index 12)
+      at async TransformPluginContext.transform (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:64100:7)
+      at async PluginContainer.transform (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:49096:18)
+      at async loadAndTransform (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:51929:27)
+      at async viteTransformMiddleware (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:61881:24)
+2:32:11 PM [vite] Internal server error: Failed to resolve import "./barao-disfarce" from "src/game/gags/index.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/user/selva-sumauma/src/game/gags/index.ts:21:7
+  15 |  import "./relogio-ponto";
+  16 |  import "./lagarta";
+  17 |  import "./barao-disfarce";
+     |          ^
+  18 |  register("gag", (w, s) => {
+  19 |    gagCss();
+      at TransformPluginContext._formatError (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:49255:41)
+      at TransformPluginContext.error (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:49250:16)
+      at normalizeUrl (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:64041:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:64173:39
+      at async Promise.all (index 16)
+      at async TransformPluginContext.transform (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:64100:7)
+      at async PluginContainer.transform (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:49096:18)
+      at async loadAndTransform (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:51929:27)
+      at async viteTransformMiddleware (file:///home/user/selva-sumauma/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:61881:24)

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Coco Verde -->
+  <defs><radialGradient id="g" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#c8f080"/><stop offset=".5" stop-color="#5aa83a"/><stop offset="1" stop-color="#1e4d2b"/></radialGradient></defs>
+  <path d="M32 6 Q56 8 58 34 Q58 58 32 60 Q6 58 6 34 Q8 8 32 6 Z" fill="#120e18"/>
+  <path d="M32 9.5 Q53 11 54.5 34 Q54.5 55 32 56.5 Q9.5 55 9.5 34 Q11 11 32 9.5 Z" fill="url(#g)"/>
+  <path d="M27 9 L29 4 L35 4 L37 9" fill="#6e4826" stroke="#120e18" stroke-width="2"/>
+  <path d="M20 22 Q16 32 20 44" stroke="#c8f080" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".8"/>
+  <path d="M18 18 Q24 12 32 12" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" opacity=".7"/>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "name": "adventures-of-rok",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "assets": "tsx tools/render-sprites.ts && tsx tools/render-scenery.ts && tsx tools/render-cine.ts && tsx tools/build-ui.ts",
+    "bake": "tsx tools/bake-levels.ts",
+    "check": "tsx tools/verify.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/three": "^0.170.0",
+    "esbuild": "^0.24.0",
+    "three": "^0.170.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

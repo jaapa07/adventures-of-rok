@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="120" viewBox="0 0 96 120">
+  <!-- Balão-tucano das vidas: balão de borracha com cara de tucano e barbante. -->
+  <defs>
+    <radialGradient id="b" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#5a5468"/><stop offset=".5" stop-color="#241e30"/><stop offset="1" stop-color="#0a0810"/></radialGradient>
+    <linearGradient id="bico" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd23a"/><stop offset=".55" stop-color="#ff8a1a"/><stop offset="1" stop-color="#d83a1a"/></linearGradient>
+  </defs>
+  <path d="M48 84 Q46 96 52 104 Q58 112 50 119" stroke="#fff4dc" stroke-width="2.4" fill="none"/>
+  <path d="M48 4 Q86 4 86 42 Q86 72 52 84 L54 90 L42 90 L44 84 Q10 72 10 42 Q10 4 48 4 Z" fill="#120e18"/>
+  <path d="M48 8 Q82 8 82 42 Q82 68 48 80 Q14 68 14 42 Q14 8 48 8 Z" fill="url(#b)"/>
+  <ellipse cx="40" cy="50" rx="18" ry="20" fill="#fff4dc"/>
+  <circle cx="38" cy="36" r="9" fill="#5ab8e8" stroke="#120e18" stroke-width="2"/>
+  <circle cx="38" cy="36" r="4.5" fill="#120e18"/><circle cx="36" cy="34" r="1.8" fill="#fff"/>
+  <path d="M46 30 Q78 30 84 46 Q70 56 46 44 Z" fill="url(#bico)" stroke="#120e18" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M46 44 Q66 50 80 50" stroke="#120e18" stroke-width="2" fill="none"/>
+  <path d="M74 36 Q80 40 82 44" stroke="#120e18" stroke-width="2" fill="none"/>
+  <path d="M24 18 Q32 12 42 12" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity=".6"/>
+</svg>

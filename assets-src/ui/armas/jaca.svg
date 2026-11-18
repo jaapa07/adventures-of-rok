@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Jaca Madura -->
+  <defs><radialGradient id="g" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#f0f080"/><stop offset=".5" stop-color="#b8b83a"/><stop offset="1" stop-color="#5a5a14"/></radialGradient>
+  <pattern id="p" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 3.5 L3.5 0 L7 3.5 L3.5 7 Z" fill="none" stroke="#6a6a1a" stroke-width="1"/></pattern></defs>
+  <path d="M32 6 Q58 10 58 36 Q56 60 30 60 Q6 58 6 34 Q8 8 32 6 Z" fill="#120e18"/>
+  <path d="M32 9.5 Q54 13 54.5 36 Q52.5 56 30 56.5 Q9.5 55 9.5 34 Q11 11 32 9.5 Z" fill="url(#g)"/>
+  <path d="M32 9.5 Q54 13 54.5 36 Q52.5 56 30 56.5 Q9.5 55 9.5 34 Q11 11 32 9.5 Z" fill="url(#p)" opacity=".8"/>
+  <path d="M30 8 Q28 2 34 1" stroke="#5a3a22" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M17 20 Q24 13 33 13" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" opacity=".6"/>
+</svg>
