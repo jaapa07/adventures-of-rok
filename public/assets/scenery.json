@@ -1,0 +1,899 @@
+{
+ "decor": {
+  "mata/samambaia": {
+   "src": "assets/decor/mata/samambaia.webp",
+   "w": 140,
+   "h": 59,
+   "ax": 71,
+   "ay": 51
+  },
+  "mata/bromelia-deco": {
+   "src": "assets/decor/mata/bromelia-deco.webp",
+   "w": 66,
+   "h": 71,
+   "ax": 27,
+   "ay": 58
+  },
+  "mata/tronco-caido": {
+   "src": "assets/decor/mata/tronco-caido.webp",
+   "w": 320,
+   "h": 87,
+   "ax": 155,
+   "ay": 77
+  },
+  "mata/raiz": {
+   "src": "assets/decor/mata/raiz.webp",
+   "w": 291,
+   "h": 67,
+   "ax": 170,
+   "ay": 49
+  },
+  "mata/pedra-musgo": {
+   "src": "assets/decor/mata/pedra-musgo.webp",
+   "w": 145,
+   "h": 94,
+   "ax": 70,
+   "ay": 58
+  },
+  "mata/cogumelos": {
+   "src": "assets/decor/mata/cogumelos.webp",
+   "w": 65,
+   "h": 48,
+   "ax": 32,
+   "ay": 39
+  },
+  "mata/arbusto": {
+   "src": "assets/decor/mata/arbusto.webp",
+   "w": 221,
+   "h": 92,
+   "ax": 123,
+   "ay": 89
+  },
+  "mata/heliconia": {
+   "src": "assets/decor/mata/heliconia.webp",
+   "w": 64,
+   "h": 183,
+   "ax": 32,
+   "ay": 180
+  },
+  "mata/placa-javali": {
+   "src": "assets/decor/mata/placa-javali.webp",
+   "w": 90,
+   "h": 145,
+   "ax": 45,
+   "ay": 143
+  },
+  "mata/toco": {
+   "src": "assets/decor/mata/toco.webp",
+   "w": 124,
+   "h": 65,
+   "ax": 64,
+   "ay": 54
+  },
+  "mata/cipo-pendente": {
+   "src": "assets/decor/mata/cipo-pendente.webp",
+   "w": 121,
+   "h": 310,
+   "ax": 63,
+   "ay": 5
+  },
+  "mata/palmeira-jovem": {
+   "src": "assets/decor/mata/palmeira-jovem.webp",
+   "w": 198,
+   "h": 302,
+   "ax": 66,
+   "ay": 298
+  },
+  "mata/pilha-toras": {
+   "src": "assets/decor/mata/pilha-toras.webp",
+   "w": 204,
+   "h": 189,
+   "ax": 102,
+   "ay": 174
+  },
+  "mata/maquina-serraria": {
+   "src": "assets/decor/mata/maquina-serraria.webp",
+   "w": 326,
+   "h": 212,
+   "ax": 146,
+   "ay": 200
+  },
+  "mata/placa-serraria": {
+   "src": "assets/decor/mata/placa-serraria.webp",
+   "w": 172,
+   "h": 189,
+   "ax": 86,
+   "ay": 185
+  },
+  "gruta/estalagmite-p": {
+   "src": "assets/decor/gruta/estalagmite-p.webp",
+   "w": 80,
+   "h": 111,
+   "ax": 42,
+   "ay": 103
+  },
+  "gruta/estalagmite-g": {
+   "src": "assets/decor/gruta/estalagmite-g.webp",
+   "w": 119,
+   "h": 240,
+   "ax": 63,
+   "ay": 230
+  },
+  "gruta/cristal-ambar": {
+   "src": "assets/decor/gruta/cristal-ambar.webp",
+   "w": 88,
+   "h": 95,
+   "ax": 49,
+   "ay": 84
+  },
+  "gruta/coluna": {
+   "src": "assets/decor/gruta/coluna.webp",
+   "w": 146,
+   "h": 471,
+   "ax": 73,
+   "ay": 458
+  },
+  "gruta/lamparina-parede": {
+   "src": "assets/decor/gruta/lamparina-parede.webp",
+   "w": 68,
+   "h": 68,
+   "ax": 41,
+   "ay": 66
+  },
+  "gruta/trilho-quebrado": {
+   "src": "assets/decor/gruta/trilho-quebrado.webp",
+   "w": 284,
+   "h": 51,
+   "ax": 145,
+   "ay": 41
+  },
+  "gruta/carrinho-velho": {
+   "src": "assets/decor/gruta/carrinho-velho.webp",
+   "w": 188,
+   "h": 105,
+   "ax": 79,
+   "ay": 93
+  },
+  "gruta/cogumelo-brilho": {
+   "src": "assets/decor/gruta/cogumelo-brilho.webp",
+   "w": 88,
+   "h": 73,
+   "ax": 46,
+   "ay": 60
+  },
+  "gruta/viga-mina": {
+   "src": "assets/decor/gruta/viga-mina.webp",
+   "w": 280,
+   "h": 323,
+   "ax": 140,
+   "ay": 316
+  },
+  "gruta/estalactite": {
+   "src": "assets/decor/gruta/estalactite.webp",
+   "w": 69,
+   "h": 226,
+   "ax": 31,
+   "ay": 2
+  },
+  "recife/coral-leque": {
+   "src": "assets/decor/recife/coral-leque.webp",
+   "w": 155,
+   "h": 96,
+   "ax": 76,
+   "ay": 88
+  },
+  "recife/coral-cerebro": {
+   "src": "assets/decor/recife/coral-cerebro.webp",
+   "w": 107,
+   "h": 62,
+   "ax": 51,
+   "ay": 52
+  },
+  "recife/anemona": {
+   "src": "assets/decor/recife/anemona.webp",
+   "w": 69,
+   "h": 55,
+   "ax": 34,
+   "ay": 50
+  },
+  "recife/alga-alta": {
+   "src": "assets/decor/recife/alga-alta.webp",
+   "w": 118,
+   "h": 352,
+   "ax": 65,
+   "ay": 344
+  },
+  "recife/concha": {
+   "src": "assets/decor/recife/concha.webp",
+   "w": 99,
+   "h": 42,
+   "ax": 46,
+   "ay": 30
+  },
+  "recife/estrela-mar": {
+   "src": "assets/decor/recife/estrela-mar.webp",
+   "w": 122,
+   "h": 56,
+   "ax": 61,
+   "ay": 36
+  },
+  "recife/ancora": {
+   "src": "assets/decor/recife/ancora.webp",
+   "w": 144,
+   "h": 189,
+   "ax": 72,
+   "ay": 178
+  },
+  "recife/barril-naufrago": {
+   "src": "assets/decor/recife/barril-naufrago.webp",
+   "w": 118,
+   "h": 77,
+   "ax": 60,
+   "ay": 61
+  },
+  "recife/coqueiro": {
+   "src": "assets/decor/recife/coqueiro.webp",
+   "w": 336,
+   "h": 440,
+   "ax": 56,
+   "ay": 431
+  },
+  "recife/guarda-sol": {
+   "src": "assets/decor/recife/guarda-sol.webp",
+   "w": 193,
+   "h": 227,
+   "ax": 85,
+   "ay": 214
+  },
+  "recife/castelo-areia": {
+   "src": "assets/decor/recife/castelo-areia.webp",
+   "w": 106,
+   "h": 124,
+   "ax": 53,
+   "ay": 116
+  },
+  "recife/timao": {
+   "src": "assets/decor/recife/timao.webp",
+   "w": 154,
+   "h": 159,
+   "ax": 77,
+   "ay": 150
+  },
+  "recife/bau-velho": {
+   "src": "assets/decor/recife/bau-velho.webp",
+   "w": 151,
+   "h": 89,
+   "ax": 75,
+   "ay": 78
+  },
+  "fabrica/cano": {
+   "src": "assets/decor/fabrica/cano.webp",
+   "w": 190,
+   "h": 159,
+   "ax": 132,
+   "ay": 147
+  },
+  "fabrica/chamine-p": {
+   "src": "assets/decor/fabrica/chamine-p.webp",
+   "w": 105,
+   "h": 394,
+   "ax": 38,
+   "ay": 386
+  },
+  "fabrica/engrenagem": {
+   "src": "assets/decor/fabrica/engrenagem.webp",
+   "w": 198,
+   "h": 188,
+   "ax": 93,
+   "ay": 185
+  },
+  "fabrica/barril-oleo": {
+   "src": "assets/decor/fabrica/barril-oleo.webp",
+   "w": 108,
+   "h": 121,
+   "ax": 36,
+   "ay": 110
+  },
+  "fabrica/placa-javarda": {
+   "src": "assets/decor/fabrica/placa-javarda.webp",
+   "w": 174,
+   "h": 170,
+   "ax": 87,
+   "ay": 166
+  },
+  "fabrica/painel": {
+   "src": "assets/decor/fabrica/painel.webp",
+   "w": 148,
+   "h": 167,
+   "ax": 66,
+   "ay": 160
+  },
+  "fabrica/corrente": {
+   "src": "assets/decor/fabrica/corrente.webp",
+   "w": 42,
+   "h": 348,
+   "ax": 20,
+   "ay": 7
+  },
+  "fabrica/caixa-metal": {
+   "src": "assets/decor/fabrica/caixa-metal.webp",
+   "w": 122,
+   "h": 138,
+   "ax": 54,
+   "ay": 129
+  },
+  "fabrica/tubo-vapor": {
+   "src": "assets/decor/fabrica/tubo-vapor.webp",
+   "w": 127,
+   "h": 237,
+   "ax": 21,
+   "ay": 232
+  },
+  "fabrica/toco-cortado": {
+   "src": "assets/decor/fabrica/toco-cortado.webp",
+   "w": 135,
+   "h": 55,
+   "ax": 63,
+   "ay": 42
+  },
+  "fabrica/cerca-arame": {
+   "src": "assets/decor/fabrica/cerca-arame.webp",
+   "w": 281,
+   "h": 165,
+   "ax": 136,
+   "ay": 158
+  },
+  "cristal/cristal-g": {
+   "src": "assets/decor/cristal/cristal-g.webp",
+   "w": 169,
+   "h": 233,
+   "ax": 88,
+   "ay": 217
+  },
+  "cristal/cristal-p": {
+   "src": "assets/decor/cristal/cristal-p.webp",
+   "w": 74,
+   "h": 91,
+   "ax": 43,
+   "ay": 84
+  },
+  "cristal/cristal-flutuante": {
+   "src": "assets/decor/cristal/cristal-flutuante.webp",
+   "w": 99,
+   "h": 139,
+   "ax": 56,
+   "ay": 135
+  },
+  "copa/galho-g": {
+   "src": "assets/decor/copa/galho-g.webp",
+   "w": 423,
+   "h": 219,
+   "ax": 199,
+   "ay": 199
+  },
+  "copa/folha-gigante": {
+   "src": "assets/decor/copa/folha-gigante.webp",
+   "w": 132,
+   "h": 189,
+   "ax": 46,
+   "ay": 183
+  },
+  "copa/ninho-aves": {
+   "src": "assets/decor/copa/ninho-aves.webp",
+   "w": 97,
+   "h": 39,
+   "ax": 48,
+   "ay": 36
+  },
+  "copa/flor-sumauma": {
+   "src": "assets/decor/copa/flor-sumauma.webp",
+   "w": 43,
+   "h": 72,
+   "ax": 20,
+   "ay": 70
+  },
+  "copa/semente-luz": {
+   "src": "assets/decor/copa/semente-luz.webp",
+   "w": 73,
+   "h": 73,
+   "ax": 41,
+   "ay": 89
+  }
+ },
+ "parallax": {
+  "mata": [
+   {
+    "src": "assets/parallax/mata/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mata/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mata/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mata/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mata/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "mata-tarde": [
+   {
+    "src": "assets/parallax/mata-tarde/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mata-tarde/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mata-tarde/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mata-tarde/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mata-tarde/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "serraria": [
+   {
+    "src": "assets/parallax/serraria/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/serraria/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/serraria/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/serraria/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/serraria/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "rio": [
+   {
+    "src": "assets/parallax/rio/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/rio/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/rio/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/rio/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/rio/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "gruta": [
+   {
+    "src": "assets/parallax/gruta/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/gruta/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/gruta/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/gruta/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/gruta/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "mina": [
+   {
+    "src": "assets/parallax/mina/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mina/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mina/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mina/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/mina/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "praia": [
+   {
+    "src": "assets/parallax/praia/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/praia/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/praia/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/praia/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/praia/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "recife": [
+   {
+    "src": "assets/parallax/recife/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/recife/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/recife/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/recife/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/recife/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "naufragio": [
+   {
+    "src": "assets/parallax/naufragio/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/naufragio/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/naufragio/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/naufragio/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/naufragio/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "fabrica": [
+   {
+    "src": "assets/parallax/fabrica/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/fabrica/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/fabrica/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/fabrica/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/fabrica/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "cristal": [
+   {
+    "src": "assets/parallax/cristal/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/cristal/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/cristal/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/cristal/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/cristal/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ],
+  "copa": [
+   {
+    "src": "assets/parallax/copa/1.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/copa/2.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/copa/3.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/copa/4.webp",
+    "w": 2048,
+    "h": 1152
+   },
+   {
+    "src": "assets/parallax/copa/5.webp",
+    "w": 2048,
+    "h": 1152
+   }
+  ]
+ },
+ "sky": {
+  "mata": "linear-gradient(180deg, #6fb8e8 0%, #a6d8f0 45%, #d8f0e4 100%)",
+  "mata-tarde": "linear-gradient(180deg, #3a2a6a 0%, #c8507a 40%, #f89a5a 70%, #ffd890 100%)",
+  "serraria": "linear-gradient(180deg, #8a9aa8 0%, #b8b8a8 50%, #d8c8a0 100%)",
+  "rio": "linear-gradient(180deg, #5aa8e0 0%, #9ad0ec 50%, #e0f4f0 100%)",
+  "gruta": "linear-gradient(180deg, #0a0604 0%, #1e140a 50%, #2e1e10 100%)",
+  "mina": "linear-gradient(180deg, #0c0a08 0%, #1e1812 55%, #2a2014 100%)",
+  "praia": "linear-gradient(180deg, #3a9ae8 0%, #7cc8f4 45%, #e4f6fa 100%)",
+  "recife": "linear-gradient(180deg, #3ab0d8 0%, #1a6ea8 40%, #0a2e5a 100%)",
+  "naufragio": "linear-gradient(180deg, #14506e 0%, #0a2a44 45%, #040e1c 100%)",
+  "fabrica": "linear-gradient(180deg, #3a1a14 0%, #7a3a22 45%, #c86a34 100%)",
+  "cristal": "linear-gradient(180deg, #1a0a34 0%, #4a1a7a 50%, #8a4ac8 100%)",
+  "copa": "linear-gradient(180deg, #3a8ae0 0%, #8ac8f4 50%, #f4fbff 100%)"
+ },
+ "water": {
+  "mata": {
+   "color": "rgba(52, 96, 74, 0.82)",
+   "surface": "tiles/mata/water-surface.webp",
+   "sw": 128,
+   "sh": 48
+  },
+  "gruta": {
+   "color": "rgba(40, 52, 48, 0.86)",
+   "surface": "tiles/gruta/water-surface.webp",
+   "sw": 128,
+   "sh": 48
+  },
+  "recife": {
+   "color": "rgba(30, 110, 150, 0.78)",
+   "surface": "tiles/recife/water-surface.webp",
+   "sw": 128,
+   "sh": 48
+  },
+  "fabrica": {
+   "color": "rgba(70, 60, 40, 0.86)",
+   "surface": "tiles/fabrica/water-surface.webp",
+   "sw": 128,
+   "sh": 48
+  },
+  "cristal": {
+   "color": "rgba(90, 40, 140, 0.8)",
+   "surface": "tiles/cristal/water-surface.webp",
+   "sw": 128,
+   "sh": 48
+  },
+  "copa": {
+   "color": "rgba(60, 120, 110, 0.8)",
+   "surface": "tiles/copa/water-surface.webp",
+   "sw": 128,
+   "sh": 48
+  }
+ },
+ "map": {
+  "w": 2560,
+  "h": 1440,
+  "devastada": "assets/map/ilha-devastada.webp",
+  "renascida": "assets/map/ilha-renascida.webp",
+  "regioes": [
+   "assets/map/regiao-1-verde.webp",
+   "assets/map/regiao-2-verde.webp",
+   "assets/map/regiao-3-verde.webp",
+   "assets/map/regiao-4-verde.webp"
+  ]
+ },
+ "mapNodes": {
+  "1-1": [
+   379,
+   1098
+  ],
+  "1-2": [
+   568,
+   998
+  ],
+  "1-3": [
+   431,
+   881
+  ],
+  "1-4": [
+   678,
+   833
+  ],
+  "chefe-1": [
+   871,
+   892
+  ],
+  "2-1": [
+   633,
+   699
+  ],
+  "2-2": [
+   805,
+   612
+  ],
+  "2-3": [
+   1006,
+   498
+  ],
+  "chefe-2": [
+   1186,
+   498
+  ],
+  "3-1": [
+   1408,
+   515
+  ],
+  "3-2": [
+   1579,
+   512
+  ],
+  "3-3": [
+   1777,
+   546
+  ],
+  "3-4": [
+   1976,
+   644
+  ],
+  "chefe-3": [
+   1844,
+   710
+  ],
+  "4-1": [
+   2087,
+   829
+  ],
+  "4-2": [
+   1996,
+   968
+  ],
+  "4-3": [
+   1797,
+   1066
+  ],
+  "chefe-4": [
+   1537,
+   991
+  ],
+  "5-1": [
+   1280,
+   449
+  ],
+  "oficina": [
+   813,
+   1108
+  ],
+  "bem-te-vi": [
+   1062,
+   1135
+  ],
+  "viveiro": [
+   1411,
+   834
+  ],
+  "tucano-1": [
+   281,
+   1009
+  ],
+  "tucano-2": [
+   585,
+   620
+  ],
+  "tucano-3": [
+   1527,
+   581
+  ],
+  "tucano-4": [
+   2222,
+   943
+  ]
+ }
+}
